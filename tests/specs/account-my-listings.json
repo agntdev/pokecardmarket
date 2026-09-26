@@ -1,0 +1,20 @@
+[
+  {
+    "name": "My listings",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "Manage, edit, or remove your published or draft listings"
+            }
+          }
+        ],
+        "send": {
+          "callback": "account:my_listings"
+        }
+      }
+    ]
+  }
+]
